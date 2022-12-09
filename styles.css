@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      /* Add some styles to make the app look nice on mobile */
+      body {
+        display: flex;
+        background-color: #121212;
+        overflow: hidden;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.15rem;
+
+
+      }
+      path {
+        fill: white;
+        stroke-width: 0.2px;
+        stroke: rgb(74, 120, 204);
+      }
+      path:hover {
+        fill: rgb(74, 120, 204);
+        stroke: rgb(10, 33, 77);
+        stroke-width: 0.5px;
+        cursor: pointer;
+      }
+      svg {
+        height: 100vh;
+        margin: auto;
+        width: 80%;
+      }
+
+      img.previous-answer,
+      img.previous-clicked {
+        width: 25%;
+      }
+
+      .side-menu p {
+        color: white;
+        text-align: left;
+        margin-bottom: 0;
+      }
+
+      .side-menu p.highscore {
+        margin-top: auto;
+      }
